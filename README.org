@@ -1,0 +1,33 @@
+#+TITLE: org-binder
+#+DATE: 2017-12-26
+#+AUTHOR: DongSoo Lee
+
+* Introduction
+This project made for gathering and automatically publishing of org-mode documents.
+
+It has some general macros for exporting org document to HTML and also It creates =setup.org= files for binding main setup.
+
+You can select external web modules to bind.
+
+After publishing sequences are completed, you can get a new directory of the independent website.
+
+This generated directory has no dependencies for using website, so you can run a complete website anywhere.
+
+* Features
+
+This project is totally independence, so It can be porting anywhere.
+
+** Macros
+
+- LINK_ID (CUSTOM_ID, TYPE) : create internal links matched CUSTOM_ID on a project.
+  - CUSTOM_ID : Set an ID of string type for making internal link.
+  - TYPE
+	- nil : Use a link name matched section's NAME or heading of CUSTOM_ID.
+	- t : Use link name link NAME<CUSTOM_ID>
+	- 0 : Use link name as a CUSTOM_ID
+	- 1 : Use link name as a heading
+	- 2 : Use link name as a Name
+- HTML (FILENAME)
+- CSS (FILENAME)
+- JS (FILENAME)
+** 스니펫
