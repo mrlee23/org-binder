@@ -27,6 +27,7 @@ This project is totally independence, so It can be porting anywhere.
 	- 0 : Use link name as a CUSTOM_ID
 	- 1 : Use link name as a heading
 	- 2 : Use link name as a Name
+	- Name : 그 외 문자열일 경우 해당 문자열을 그대로 쓴다. 이름 중 /:[a-zA-Z-_]/ 이 포함되었을 경우 해당하는 프로퍼티를 같이 사용하거나 없을 경우 그대로 문자열로 넣는다.
 - HTML (FILENAME)
 - CSS (FILENAME)
 - JS (FILENAME)
