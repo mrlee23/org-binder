@@ -9,8 +9,8 @@ class SimpleOrgParserTester {
 		oneMocha(
 			[
 				{
-					name: 'collectProperties',
-					method: orgParser.collectProperties,
+					name: 'parseAll',
+					method: orgParser.parseAll,
 					this: orgParser,
 					test: {
 						assert: 'equal',
