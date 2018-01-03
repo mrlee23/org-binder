@@ -32,3 +32,10 @@ This project is totally independence, so It can be porting anywhere.
 - CSS (FILENAME)
 - JS (FILENAME)
 ** 스니펫
+** setup.org 전처리
+setup.org에서 INCLUDE로 참조하는 설정파일들을 미리 하나로 합쳐 성능 향상
+추가로 경로 충돌이 일어나지 않게끔 처리하는 기능 도입
+
+1. setup.org 를 최초 한번 처리
+   - org 파일로 export
+   - macro는 처리하지 않음
